@@ -5,6 +5,7 @@
 body{
     background-color: #F0F8FF;
     font-family: 'Great Vibes', cursive;
+    overflow-x: hidden;
 }
 .heading{
     height: 40px;
@@ -21,38 +22,30 @@ body{
     left: 480px;
     top: 150px;
 }
-.question,.questionTwo{
+.question,.questionTwo,.questionThree{
     display: flex;
     width: 300px;
     justify-content: space-between;
 }
-.answer{
-    display: flex;
-    width: 300px;
-    justify-content: space-between;
-    display: none;
-    height: 300px;
-}
-.answerTwo{
+.answer,.answerTwo,.answerThree{
+    
     display: flex;
     width: 300px;
     justify-content: space-between;
     display: none;
-    height: 300px;
-}
+}   
 .active{
     display: block;
     display: flex;
     height: 300px;
 }
-.deactive{
-    display: block;
-    display: flex;
-    height: 300px; 
-}
-.add,.remove,.addTwo,.removeTwo{
+.add,.remove,.addTwo,.removeTwo,.addThree,.removeThree{
     height: 20px;
     width: 20px;
     color:  rgb(244,196,48);
     border: 2px solid rgb(244,196,48);
+}
+hr{
+    height: 0;
+    width: 300px;
 }
